@@ -10,12 +10,14 @@ To use our code, please follow the steps below:
 
 First, install the required dependencies. Run the following command:
 
-```bash
+```
 pip install -r requirements.txt
+```
 
 ### Step 2: Train Your Own Model
 
 To train your own model, run the following script:
 
-```bash
+```
 python main_wandb.py
+```
