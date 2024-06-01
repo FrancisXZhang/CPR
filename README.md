@@ -16,7 +16,12 @@ pip install -r requirements.txt
 
 ### Step 2: Prepare Your Data
 
-To train on your own data, you could using MediaPipe to extract the pose information for your scenarios (See the official demo of Mediapipe: https://ai.google.dev/edge/mediapipe/solutions/guide). And you could save the extracted data in the npy files.
+To train on your own data, you can use MediaPipe to extract the pose information for your scenarios (See the official demo of MediaPipe: https://ai.google.dev/edge/mediapipe/solutions/guide). Save the extracted data in npy files by changing lines 36 and 37 in main.py:
+
+```
+data_dir = 'your preferred path'
+joint_folder = 'your preferred path'
+```
 
 ### Step 3: Train Your Own Model
 
