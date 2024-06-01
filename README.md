@@ -14,7 +14,11 @@ First, install the required dependencies. Run the following command:
 pip install -r requirements.txt
 ```
 
-### Step 2: Train Your Own Model
+### Step 2: Prepare Your Data
+
+To train on your own data, you could using MediaPipe to extract the pose information for your scenarios (See the official demo of Mediapipe: https://ai.google.dev/edge/mediapipe/solutions/guide). And you could save the extracted data in the npy files.
+
+### Step 3: Train Your Own Model
 
 To train your own model, run the following script:
 
